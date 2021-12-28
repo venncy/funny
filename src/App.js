@@ -6,12 +6,12 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={picture} className="picture" alt="pic" />
-        <p>
-          funny box moment
-        </p>
+        <h1>
+          holy moly
+        </h1>
         <form>
-          <label for="quote">funny text moment</label><br></br>
-          <input type="text" name="quote" /><br></br>
+          <label for="quote">im malding i cant figure out backend what do i do</label><br></br>
+          <input type="text" placeholder="quote" name="quote" /><br></br>
           <input type="submit" value="submit" />
         </form>
       </header>
