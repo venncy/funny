@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/funny/static/css/main.e6fb0be3.css",
+    "main.js": "/funny/static/js/main.b5834adc.js",
+    "static/js/787.5bfc73d7.chunk.js": "/funny/static/js/787.5bfc73d7.chunk.js",
+    "static/media/zz.png": "/funny/static/media/zz.a3123c7b15af5338f618.png",
+    "index.html": "/funny/index.html",
+    "main.e6fb0be3.css.map": "/funny/static/css/main.e6fb0be3.css.map",
+    "main.b5834adc.js.map": "/funny/static/js/main.b5834adc.js.map",
+    "787.5bfc73d7.chunk.js.map": "/funny/static/js/787.5bfc73d7.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6fb0be3.css",
+    "static/js/main.b5834adc.js"
+  ]
+}
