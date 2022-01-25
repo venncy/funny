@@ -7,7 +7,7 @@ function App() {
   const [data, setData] = React.useState(null);
 
   React.useEffect(() => {
-    fetch("http://localhost:3001/api")
+    fetch("https://venncy.github.io/funny/api")
       .then(res => res.json())
       .then(data => setData(data.message));
   }, []);
@@ -20,12 +20,12 @@ function App() {
           holy moly
         </h1>
         <form class="funny-form" name="quoteEntry">
-          <label for="quote">im malding i cant figure out backend</label><br></br>
+          <label for="quote">quote submission box!</label><br></br>
           <input class="quote-entry" type="text" placeholder="quote" name="quote" />
           <input class="submit" type="submit" value="submit" />
         </form>
         <p>
-          {!data? "ur mom" : data}
+          {!data? "loading..." : data}
         </p>
       </header>
     </div>
