@@ -1,0 +1,60 @@
+body {
+  background-color: #384053;
+  padding-top: 4vmin;
+  margin: 0;
+  font-family: 'Reenie Beanie',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.pict {
+  border-radius: 20px;
+}
+
+.funny-form {
+  background-color: #617091;
+  border-radius: 10px;
+  border: 0;
+  box-shadow: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.quote-entry {
+  border-radius: 10px;
+  border: 0;
+  box-shadow: none;
+  font-family: 'Reenie Beanie';
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin: 10px;
+} 
+
+.submit {
+  border-radius: 10px;
+  border: 0;
+  box-shadow: none;
+  background: #6d9ace;
+  color: white;
+  font-family: 'Reenie Beanie';
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 5px;
+}
